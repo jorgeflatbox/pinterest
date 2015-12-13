@@ -1,2 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+
+$body-bg: 	    white;
+$font-family: 'Francois One', sans-serif;
+$navbar-default-bg:     white;
+$navbar-default-link-color:  gray;
+$navbar-default-brand-color:       #c0392b;
 @import "bootstrap";
-@import "bootstrap-sprockets";
+
+.center {
+
+	text-align: center;
+}
+
+.navbar-brand {
+
+	font-weight: bold;
+}
+

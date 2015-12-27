@@ -5,7 +5,9 @@ $font-family: 'Francois One', sans-serif;
 $navbar-default-bg:     white;
 $navbar-default-link-color:  gray;
 $navbar-default-brand-color:       #c0392b;
-@import "bootstrap";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
 
